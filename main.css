@@ -1,0 +1,199 @@
+html {
+	scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: box-border;
+}
+
+head {
+	margin-top: 0;
+}
+
+header {
+	background-color: rgb(255, 255, 255);
+
+	position: fixed;
+	width: 100%;
+	margin-top: 10;
+}
+
+main-header {
+	padding: 0;
+	margin: 0;
+}
+
+h1 {
+	font-family: 'Cambay', sans-serif;
+	color: white;
+	font-size: 40px;
+	text-align: center;
+	margin-top: 0;
+}
+
+body {
+	font-family: 'Cambay', sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+.main {
+	background-image: url(https://github.com/rbulawa/Bookshelf/img/pawel-czerwinski-BAiRfbt1HRE-unsplash.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-blend-mode: multiply;
+	width: 100%;
+	height: 100vh;
+	margin: 0;
+	position: relative;
+	overflow: hidden;
+}
+
+.main-text {
+	position: relative;
+	text-align: center;
+	margin-top: 12vh;
+}
+
+h1 {
+	padding-bottom: 15px;
+}
+
+h2 {
+	position: relative;
+	font-family: 'Cambay', sans-serif;
+	text-align: center;
+	color: white;
+	font-size: 32px;
+}
+
+p {
+	position: relative;
+	font-family: 'Cambay', sans-serif;
+	text-align: center;
+	color: white;
+	font-size: 20px;
+}
+
+.main-button {
+	position: center;
+	margin-top: 6vh;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	letter-spacing: .05em;
+	text-decoration: none;
+	padding: 12px 30px;
+	background-color: rgba(0, 0, 0, .3);
+	color: white;
+	border: 2px solid white;
+	border-radius: 20px;
+}
+
+button:hover {
+	background-color: rgba(0, 128, 0, .8);
+}
+
+.form {
+	background-image: url(https://github.com/rbulawa/Bookshelf/img/thought-catalog-o0Qqw21-0NI-unsplash.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-blend-mode: multiply;
+	background-color: rgba(255, 255, 255, .9);
+	width: 100%;
+	height: 97vh;
+	margin: 0;
+	position: relative;
+	overflow: hidden;
+}
+
+.form-header:hover {
+	transition: ease-in-out 1s;
+	transform: scale(1.2);
+}
+
+#sign.up {
+	width: 20%;
+	height: 30vh;
+}
+
+.form {
+	position: relative;
+	position: center;
+}
+
+.Bookshelf {
+	font-family: 'Fredericka the Great', cursive;
+	font-size: 80px;
+	text-shadow: black 3px 3px 3px;
+}
+
+.asterisk {
+	color: red;
+}
+
+#mc_embed_signup {
+	background: transparent 100%;
+	text-align: center;
+}
+
+.form-header {
+	font-family: 'Fredericka the Great', cursive;
+	font-size: 60px;
+	color: rgb(66, 66, 66);
+}
+
+#main-footer {
+	background: rgb(66, 66, 66);
+	color: #fff;
+	text-align: center;
+	padding: 1px;
+	position: relative;
+	font-style: thin;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 10;
+	margin: 0;
+}
+
+.footer-text {
+	font-size: 15px;
+	margin: 0;
+	font-style: thin;
+	font-family: 'Roboto', sans-serif;
+}
+
+.copyright {
+	font-family: 'Roboto', sans-serif;
+	font-style: thin;
+	font-size: 15px;
+}
+
+#mc-embedded-subscribe {
+	position: relative;
+	position: center;
+	margin-top: 3vh;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	letter-spacing: .05em;
+	text-decoration: none;
+	padding: 12px 30px;
+	background-color: rgba(0, 0, 0, .3);
+	color: white;
+	border: 2px solid white;
+	border-radius: 20px;
+}
+
+#mc-embedded-subscribe:hover {
+	background-color: rgba(0, 128, 0, .8);
+}
+
+.Bookshelf-footer {
+	font-size: 20px;
+	font-family: 'Fredericka the Great', cursive;
+	color: rgb(66, 66, 66);
+}
+
+.form-p {
+	color: rgb(66, 66, 66);
+}
